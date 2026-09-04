@@ -1,4 +1,9 @@
-const idade= 18;
+const prompt = require("prompt-sync")();
 
-console.log(idade >17 ? "Maior de idade" : 
-    idade === ? "Exato!" : "Menor de idade")
+function dobro(numero) {
+    return numero * 2;
+}
+
+let numero = Number(prompt("Digite um número: "));
+
+console.log(dobro(numero));
